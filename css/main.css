@@ -16,6 +16,7 @@
     background-size: cover;
     background-attachment: fixed;
     display: inline-block;
+    position: sticky;
 }
 /******************
         HERO 
@@ -215,6 +216,12 @@ footer {
     text-align: center;
 }
 
+.socials > a:hover {
+    background-color: #fff;
+    color: #4EDFFF;
+    border-radius: 50%;
+}
+
 .footer {
     display: inline-block;
     text-align: center;
@@ -245,4 +252,159 @@ color: #4EDFFF;
     font-size: 17px;
     line-height: 28px;
     color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width:1350px) {
+
+    .content {
+        width: 900px;
+        margin: 20px calc( (100% - 900px) / 2 );
+    }
+
+    footer {
+        width: 900px;
+        margin: 20px calc (( 100% - 900px ) / 2);
+    }
+}
+
+@media (max-width:950px) {
+    .content {
+        width: 700px;
+        margin: 20px calc( (100% - 700px) / 2 );
+    }
+
+    .content form > input {
+        width: 100%;
+    }
+
+    footer {
+        width: 700px;
+        margin: 20px calc (( 100% - 700px ) / 2);
+    }
+    .footer {
+        width: 700px;
+        margin: 40px (( 100% - 700) / 2);
+    }
+}
+
+@media (max-width:750px) {
+    .content {
+        width: 500px;
+        margin: 20px calc( (100% - 500px) / 2 );
+    }
+
+    .content form > input {
+        width: 100%;
+    }
+
+    footer {
+        width: 500px;
+        margin: 20px calc (( 100% - 500px ) / 2);
+    }
+    .footer {
+        width: 500px;
+        margin: 40px (( 100% - 500) / 2);
+    }
+
+}
+
+@media (max-width:615px) {
+    .content {
+        width: 500px;
+        margin: 20px calc( (100% - 500px) / 2 );
+    }
+
+    .content form > input {
+        width: 100%;
+    }
+
+    .hero {
+        width: 500px;
+        margin: 20px calc ((100% - 500px) / 2);
+    }
+
+    .column-left {
+        display: block;
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    .column-right {
+        display: block;
+        width: 100%;
+        padding: 0px 30px;
+    }
+    
+    .btn-up {
+        display: none;
+    }
+
+    footer {
+        width: 500px;
+        margin: 20px calc (( 100% - 500px ) / 2);
+    }
+    .footer {
+        width: 500px;
+        margin: 40px (( 100% - 500) / 2);
+    }
+}
+
+@media (max-width:515px) {
+
+    .time {
+       width: 45%;
+    }
+
+    .content {
+        width: 300px;
+        margin: 20px calc( (100% - 300px) / 2 );
+    }
+
+    .content form > input {
+        width: 100%;
+    }
+
+    .hero {
+        width: 300px;
+        margin: 20px calc ((100% - 300px) / 2);
+    }
+
+    .column-left {
+        display: block;
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    .column-right {
+        display: block;
+        width: 100%;
+        padding: 0px 30px;
+    }
+    
+    .btn-up {
+        display: none;
+    }
+    
+    footer {
+        width: 300px;
+        margin: 20px 0px;
+        padding: 0px 0px;
+    }
+
+    .socials > a {
+        width: 20%;
+        height: 50px;
+    }
+
+    .footer {
+        width: 300px;
+        margin: 20px 0;
+        padding: 0px 0px;
+    }
+
+    .footer > span {
+        width: 100%;
+        display: block;
+    }
+
 }
