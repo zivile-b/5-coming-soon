@@ -1,0 +1,21 @@
+.clock {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+}
+
+.time {
+    display: inline-block;
+    width: 23%;
+    font-size: 54px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.time > .label {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+}
