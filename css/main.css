@@ -67,7 +67,7 @@ p {
     color: rgba(255, 255, 255, 0.9);
     background-color: transparent;
     font-size: 16px;  
-    line-height: 20px;
+    line-height: 24px;
     outline: none;
     border: none;
     border-bottom: 2px solid #fff;
@@ -297,6 +297,18 @@ color: #4EDFFF;
         width: 100%;
     }
 
+    .column-left {
+        display: block;
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    .column-right {
+        display: block;
+        width: 100%;
+        padding: 0px 30px;
+    }
+    
     footer {
         width: 500px;
         margin: 20px calc (( 100% - 500px ) / 2);
@@ -367,6 +379,10 @@ color: #4EDFFF;
     .hero {
         width: 300px;
         margin: 20px calc ((100% - 300px) / 2);
+    }
+
+    .hero-form > input {
+        line-height: 30px;
     }
 
     .column-left {
