@@ -383,6 +383,7 @@ color: #4EDFFF;
 
     .hero-form > input {
         line-height: 30px;
+        height: 40px;
     }
 
     .column-left {
